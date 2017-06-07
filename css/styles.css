@@ -1,0 +1,98 @@
+body {
+  background: rgb(220,220,220);
+  font-family: 'Bubbler One', sans-serif;
+}
+
+h1 {
+  text-align: center;
+  text-transform: lowercase;
+  margin-bottom: 10px;
+  font-family: 'Passion One', cursive;
+  font-size: 42px;
+  letter-spacing: 0.03em;
+}
+
+p {
+  text-align: center;
+  text-transform: lowercase;
+  margin-top: 5px;
+  margin-bottom: 40px;
+  font-family: 'Bubbler One', sans-serif;
+  font-weight: bold;
+}
+
+.gameboard {
+  width: 800px;
+  height: 250px;
+  border: 2px solid red;
+  margin: 0 auto;
+  border-radius: 20px;
+}
+
+.leftside {
+  width: 396px;
+  height: 246px;
+  border: 2px solid transparent;
+  border-right: 2px solid gray;
+  float: left;
+}
+
+.leftbucket {
+  width: 95px;
+  height: 242px;
+  border: 2px solid gray;
+  float: left;
+  border-radius: 100px;
+  margin-right: 4px;
+  margin-left: 2px;
+  text-align: center;
+  line-height: 242px;
+  font-size: 32px;
+}
+
+.leftwell {
+  width: 90px;
+  height: 114px;
+  border: 2px solid navy;
+  float: left;
+  border-radius: 100px;
+  margin-right: 3px;
+  margin-top: 3.5px;
+  text-align: center;
+  line-height: 114px;
+  font-size: 32px;
+}
+
+.rightside {
+  width: 396px;
+  height: 246px;
+  border: 2px solid transparent;
+  border-left: 2px solid gray;
+  float: left;
+}
+
+.rightbucket {
+  width: 95px;
+  height: 242px;
+  border: 2px solid gray;
+  float: right;
+  border-radius: 100px;
+  margin-left: 4px;
+  margin-right: 2px;
+  text-align: center;
+  line-height: 242px;
+  font-size: 32px;
+}
+
+.rightwell {
+  width: 90px;
+  height: 114px;
+  border: 2px solid navy;
+  float: right;
+  border-radius: 100px;
+  margin-left: 3px;
+  margin-top: 3.5px;
+  text-align: center;
+  line-height: 114px;
+  font-size: 32px;
+}
